@@ -2176,4 +2176,4 @@ Happy coding!
 
 ---
 
-**MasteringJavaScript101** is maintained by [Your Name/Organization](YOUR_PROFILE_LINK).
+**MasteringJavaScript101** is maintained by [Anonymous).
