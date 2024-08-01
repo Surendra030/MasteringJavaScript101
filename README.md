@@ -10,7 +10,7 @@ Inside this repository, we offer a curated collection of over 300 JavaScript top
 
 ### Topics Overview
 
-'''
+```
 {
     "1": {
         "Variables": [
@@ -2158,7 +2158,7 @@ Inside this repository, we offer a curated collection of over 300 JavaScript top
         ]
     }
 }
-'''
+```
 
 ## How to Use This Repository
 
