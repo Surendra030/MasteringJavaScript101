@@ -1,4 +1,4 @@
-# Understanding `Array.prototype.concat()` Method in JavaScript
+# Understanding `Array.concat()` Method in JavaScript
 
 The `Array.prototype.concat()` method in JavaScript is used to merge two or more arrays into a single new array. It creates a new array by combining the elements of the arrays provided as arguments. Importantly, this method does not alter the original arrays but instead returns a new array.
 
