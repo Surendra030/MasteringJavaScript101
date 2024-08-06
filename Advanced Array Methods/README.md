@@ -1,108 +1,105 @@
-
 # JavaScript Array Methods
 
 Here are 101 methods that can be used on arrays in JavaScript
 
-1. `at`
-2. `concat`
-3. `copyWithin`
-4. `entries`
-5. `every`
-6. `fill`
-7. `filter`
-8. `find`
-9. `findIndex`
-10. `findLast`
-11. `findLastIndex`
-12. `flat`
-13. `flatMap`
-14. `forEach`
-15. `from`
-16. `includes`
-17. `indexOf`
-18. `isArray`
-19. `join`
-20. `keys`
-21. `lastIndexOf`
-22. `map`
-23. `of`
-24. `pop`
-25. `push`
-26. `reduce`
-27. `reduceRight`
-28. `reverse`
-29. `shift`
-30. `slice`
-31. `some`
-32. `sort`
-33. `splice`
-34. `toLocaleString`
-35. `toReversed`
-36. `toSorted`
-37. `toSpliced`
-38. `toString`
-39. `unshift`
-40. `values`
-41. `with`
-42. `@@iterator`
-43. `entries`
-44. `keys`
-45. `values`
-46. `copyWithin`
-47. `fill`
-48. `find`
-49. `findIndex`
-50. `findLast`
-51. `findLastIndex`
-52. `flat`
-53. `flatMap`
-54. `forEach`
-55. `includes`
-56. `indexOf`
-57. `isArray`
-58. `join`
-59. `lastIndexOf`
-60. `map`
-61. `of`
-62. `pop`
-63. `push`
-64. `reduce`
-65. `reduceRight`
-66. `reverse`
-67. `shift`
-68. `slice`
-69. `some`
-70. `sort`
-71. `splice`
-72. `toLocaleString`
-73. `toString`
-74. `unshift`
-75. `values`
-76. `@@iterator`
-77. `findLastIndex`
-78. `forEach`
-79. `includes`
-80. `indexOf`
-81. `isArray`
-82. `join`
-83. `keys`
-84. `lastIndexOf`
-85. `map`
-86. `of`
-87. `pop`
-88. `push`
-89. `reduce`
-90. `reduceRight`
-91. `reverse`
-92. `shift`
-93. `slice`
-94. `some`
-95. `sort`
-96. `splice`
-97. `toLocaleString`
-98. `toString`
-99. `unshift`
-100. `values`
-101. `@@iterator`
-"""
-
+1. `at` (Returns the element at a given index)
+2. `concat` (Merges two or more arrays)
+3. `copyWithin` (Copies part of an array to another location in the same array)
+4. `entries` (Returns a new Array Iterator object that contains the key/value pairs for each index in the array)
+5. `every` (Tests whether all elements in the array pass a test)
+6. `fill` (Fills all the elements of an array from a start index to an end index with a static value)
+7. `filter` (Creates a new array with all elements that pass a test)
+8. `find` (Returns the first element that passes a test)
+9. `findIndex` (Returns the index of the first element that passes a test)
+10. `findLast` (Returns the last element that passes a test)
+11. `findLastIndex` (Returns the index of the last element that passes a test)
+12. `flat` (Creates a new array with all sub-array elements concatenated into it)
+13. `flatMap` (Maps each element using a mapping function and flattens the result into a new array)
+14. `forEach` (Executes a provided function once for each array element)
+15. `from` (Creates a new Array instance from an array-like or iterable object)
+16. `includes` (Determines whether an array includes a certain value)
+17. `indexOf` (Returns the first index at which a given element can be found in the array)
+18. `isArray` (Determines whether the passed value is an array)
+19. `join` (Joins all elements of an array into a string)
+20. `keys` (Returns a new Array Iterator object that contains the keys for each index in the array)
+21. `lastIndexOf` (Returns the last index at which a given element can be found in the array)
+22. `map` (Creates a new array with the results of calling a provided function on every element in the array)
+23. `of` (Creates a new Array instance with a variable number of elements)
+24. `pop` (Removes the last element from an array and returns that element)
+25. `push` (Adds one or more elements to the end of an array and returns the new length of the array)
+26. `reduce` (Applies a function against an accumulator and each element in the array to reduce it to a single value)
+27. `reduceRight` (Applies a function against an accumulator and each element in the array (from right-to-left) to reduce it to a single value)
+28. `reverse` (Reverses the order of the elements in an array)
+29. `shift` (Removes the first element from an array and returns that element)
+30. `slice` (Returns a shallow copy of a portion of an array into a new array object)
+31. `some` (Tests whether at least one element in the array passes a test)
+32. `sort` (Sorts the elements of an array in place and returns the array)
+33. `splice` (Changes the contents of an array by removing or replacing existing elements and/or adding new elements)
+34. `toLocaleString` (Returns a string representing the elements of the array)
+35. `toReversed` (Creates a new array with the elements in reverse order)
+36. `toSorted` (Creates a new array with the elements sorted)
+37. `toSpliced` (Creates a new array with the specified elements added and/or removed)
+38. `toString` (Returns a string representing the specified array and its elements)
+39. `unshift` (Adds one or more elements to the front of an array and returns the new length of the array)
+40. `values` (Returns a new Array Iterator object that contains the values for each index in the array)
+41. `with` (Creates a new array with the specified element replaced)
+42. `@@iterator` (Returns a new Array Iterator object that contains the key/value pairs for each index in the array)
+43. `entries` (Returns a new Array Iterator object that contains the key/value pairs for each index in the array)
+44. `keys` (Returns a new Array Iterator object that contains the keys for each index in the array)
+45. `values` (Returns a new Array Iterator object that contains the values for each index in the array)
+46. `copyWithin` (Copies part of an array to another location in the same array)
+47. `fill` (Fills all the elements of an array from a start index to an end index with a static value)
+48. `find` (Returns the first element that passes a test)
+49. `findIndex` (Returns the index of the first element that passes a test)
+50. `findLast` (Returns the last element that passes a test)
+51. `findLastIndex` (Returns the index of the last element that passes a test)
+52. `flat` (Creates a new array with all sub-array elements concatenated into it)
+53. `flatMap` (Maps each element using a mapping function and flattens the result into a new array)
+54. `forEach` (Executes a provided function once for each array element)
+55. `includes` (Determines whether an array includes a certain value)
+56. `indexOf` (Returns the first index at which a given element can be found in the array)
+57. `isArray` (Determines whether the passed value is an array)
+58. `join` (Joins all elements of an array into a string)
+59. `lastIndexOf` (Returns the last index at which a given element can be found in the array)
+60. `map` (Creates a new array with the results of calling a provided function on every element in the array)
+61. `of` (Creates a new Array instance with a variable number of elements)
+62. `pop` (Removes the last element from an array and returns that element)
+63. `push` (Adds one or more elements to the end of an array and returns the new length of the array)
+64. `reduce` (Applies a function against an accumulator and each element in the array to reduce it to a single value)
+65. `reduceRight` (Applies a function against an accumulator and each element in the array (from right-to-left) to reduce it to a single value)
+66. `reverse` (Reverses the order of the elements in an array)
+67. `shift` (Removes the first element from an array and returns that element)
+68. `slice` (Returns a shallow copy of a portion of an array into a new array object)
+69. `some` (Tests whether at least one element in the array passes a test)
+70. `sort` (Sorts the elements of an array in place and returns the array)
+71. `splice` (Changes the contents of an array by removing or replacing existing elements and/or adding new elements)
+72. `toLocaleString` (Returns a string representing the elements of the array)
+73. `toString` (Returns a string representing the specified array and its elements)
+74. `unshift` (Adds one or more elements to the front of an array and returns the new length of the array)
+75. `values` (Returns a new Array Iterator object that contains the values for each index in the array)
+76. `@@iterator` (Returns a new Array Iterator object that contains the key/value pairs for each index in the array)
+77. `findLastIndex` (Returns the index of the last element that passes a test)
+78. `forEach` (Executes a provided function once for each array element)
+79. `includes` (Determines whether an array includes a certain value)
+80. `indexOf` (Returns the first index at which a given element can be found in the array)
+81. `isArray` (Determines whether the passed value is an array)
+82. `join` (Joins all elements of an array into a string)
+83. `keys` (Returns a new Array Iterator object that contains the keys for each index in the array)
+84. `lastIndexOf` (Returns the last index at which a given element can be found in the array)
+85. `map` (Creates a new array with the results of calling a provided function on every element in the array)
+86. `of` (Creates a new Array instance with a variable number of elements)
+87. `pop` (Removes the last element from an array and returns that element)
+88. `push` (Adds one or more elements to the end of an array and returns the new length of the array)
+89. `reduce` (Applies a function against an accumulator and each element in the array to reduce it to a single value)
+90. `reduceRight` (Applies a function against an accumulator and each element in the array (from right-to-left) to reduce it to a single value)
+91. `reverse` (Reverses the order of the elements in an array)
+92. `shift` (Removes the first element from an array and returns that element)
+93. `slice` (Returns a shallow copy of a portion of an array into a new array object)
+94. `some` (Tests whether at least one element in the array passes a test)
+95. `sort` (Sorts the elements of an array in place and returns the array)
+96. `splice` (Changes the contents of an array by removing or replacing existing elements and/or adding new elements)
+97. `toLocaleString` (Returns a string representing the elements of the array)
+98. `toString` (Returns a string representing the specified array and its elements)
+99. `unshift` (Adds one or more elements to the front of an array and returns the new length of the array)
+100. `values` (Returns a new Array Iterator object that contains the values for each index in the array)
+101. `@@iterator` (Returns a new Array Iterator object that contains the key/value pairs for each index in the array)
