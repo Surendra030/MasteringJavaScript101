@@ -30,7 +30,7 @@ console.log('\nArrays After Modification:');
 console.log('Arr1:', arr1); // ['a', 'b', 'c']
 console.log('Arr2:', arr2); // ['d', 'e', 'f']
 console.log('Concatenated Array:', res); // ['p', 'b', 'c', 'd', 'e', 'f']
-Explanation
+# Explanation
 
 arr1.concat(arr2) creates a new array res that combines the elements of arr1 and arr2.
 Modifying res[0] does not affect arr1 or arr2 because res holds copies of the primitive values from arr1 and arr2, not references to the original values.
