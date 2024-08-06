@@ -4,7 +4,7 @@ Arrays are an essential part of JavaScript, providing a way to store and manipul
 
 In this guide, we'll be exploring some of the most useful methods available for arrays in JavaScript. These methods allow you to perform various operations such as adding and removing elements, searching for specific values, sorting and filtering data, and much more. By mastering these methods, you'll be able to handle data in your JavaScript applications more effectively.
 
-![Array Methods Visualization](https://www.google.com/imgres?q=array&imgurl=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A927%2F1*DxlJoSM_VaoeHQEaPnFT5g.png&imgrefurl=https%3A%2F%2Fmedium.com%2Fjavarevisited%2Fan-introduction-to-arrays-applications-advantages-and-disadvantages-c3153adfb40e&docid=OQIocTQQSZFt8M&tbnid=n7hIh0mwP1Og3M&vet=12ahUKEwin0_rtveCHAxUNsVYBHdQ-FpEQM3oECGUQAA..i&w=927&h=242&hcb=2&ved=2ahUKEwin0_rtveCHAxUNsVYBHdQ-FpEQM3oECGUQAA)
+![Array Methods Visualization](https://miro.medium.com/v2/resize:fit:828/format:webp/1*DxlJoSM_VaoeHQEaPnFT5g.png)
 
 Below is a comprehensive list of 101 array methods that you can use to manipulate arrays in JavaScript. Each method comes with a brief description to help you understand its purpose and how to use it.
 
