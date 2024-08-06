@@ -6,12 +6,12 @@ In this guide, we'll be exploring some of the most useful methods available for 
 
 ![Array Methods Visualization](https://miro.medium.com/v2/resize:fit:828/format:webp/1*DxlJoSM_VaoeHQEaPnFT5g.png)
 
-Below is a comprehensive list of 101 array methods that you can use to manipulate arrays in JavaScript. Each method comes with a brief description to help you understand its purpose and how to use it.
+Below is a comprehensive list of 100 array methods that you can use to manipulate arrays in JavaScript. Each method comes with a brief description to help you understand its purpose and how to use it.
 
 
 # JavaScript Array Methods
 
-Here are 99 methods that can be used on arrays in JavaScript
+Here are 100 methods that can be used on arrays in JavaScript
 
 1. ### `at` (Returns the element at a given index)
 2. ### `concat` (Merges two or more arrays)
