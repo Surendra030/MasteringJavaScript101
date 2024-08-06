@@ -12,7 +12,6 @@ The `concat()` method can be used to combine arrays or add elements to an existi
 
 **value1, value2, ...** - Arrays and/or values to concatenate with the original array. These values are added to the end of the new array.
 
-```javascript
 // Example Implementation with Primitive Values
 let arr1 = ['a', 'b', 'c'];
 let arr2 = ['d', 'e', 'f'];
