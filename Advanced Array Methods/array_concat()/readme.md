@@ -11,10 +11,9 @@ The `concat()` method can be used to combine arrays or add elements to an existi
 ```javascript
 array.concat([value1[, value2[, ...]]])
 
+// value1, value2, ... - Arrays and/or values to concatenate with the original array. These values are added to the end of the new array.
 
-value1, value2, ... - Arrays and/or values to concatenate with the original array. These values are added to the end of the new array.
-
-###Example Implementation with Primitive Values
+//Example Implementation with Primitive Values
 let arr1 = ['a', 'b', 'c'];
 let arr2 = ['d', 'e', 'f'];
 
@@ -33,11 +32,11 @@ console.log('Arr2:', arr2); // ['d', 'e', 'f']
 console.log('Concatenated Array:', res); // ['p', 'b', 'c', 'd', 'e', 'f']
 
 
-###Explanation
+//Explanation
 arr1.concat(arr2) creates a new array res that combines the elements of arr1 and arr2.
 Modifying res[0] does not affect arr1 or arr2 because res holds copies of the primitive values from arr1 and arr2, not references to the original values.
 
-###Key Points
+//Key Points
 Arrays with Primitive Values: When you concatenate arrays that contain only primitive values (like numbers, strings, or booleans), the concatenation creates a new array with copies of those values. Since primitives are copied by value (not by reference), changes to elements in the new array do not affect the original arrays.
 Arrays with Objects: When concatenating arrays containing objects, the new array will hold references to the same objects. Changes to these objects in the new array will affect the original arrays because the objects are shared between them.
-'''
+
