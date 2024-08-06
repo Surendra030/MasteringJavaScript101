@@ -1,6 +1,6 @@
 # JavaScript Array Methods
 
-Here are 101 methods that can be used on arrays in JavaScript
+Here are 99 methods that can be used on arrays in JavaScript
 
 1. `at` (Returns the element at a given index)
 2. `concat` (Merges two or more arrays)
@@ -77,7 +77,7 @@ Here are 101 methods that can be used on arrays in JavaScript
 73. `toString` (Returns a string representing the specified array and its elements)
 74. `unshift` (Adds one or more elements to the front of an array and returns the new length of the array)
 75. `values` (Returns a new Array Iterator object that contains the values for each index in the array)
-76. `@@iterator` (Returns a new Array Iterator object that contains the key/value pairs for each index in the array)
+76. 
 77. `findLastIndex` (Returns the index of the last element that passes a test)
 78. `forEach` (Executes a provided function once for each array element)
 79. `includes` (Determines whether an array includes a certain value)
@@ -102,4 +102,3 @@ Here are 101 methods that can be used on arrays in JavaScript
 98. `toString` (Returns a string representing the specified array and its elements)
 99. `unshift` (Adds one or more elements to the front of an array and returns the new length of the array)
 100. `values` (Returns a new Array Iterator object that contains the values for each index in the array)
-101. `@@iterator` (Returns a new Array Iterator object that contains the key/value pairs for each index in the array)
